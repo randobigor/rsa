@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>RSA</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">RSA</h1>
+
+      <input
+        id="pNumber"
+        placeholder="Enter P number"
+        type="number"
+        class="form-control mb-2"
+      />
+
+      <input
+        id="qNumber"
+        placeholder="Enter Q number"
+        type="number"
+        class="form-control mb-2"
+      />
+
+      <input type="text" id="cryptWord" class="form-control mb-2" placeholder="Enter your text to cript">
+
+      <div class="text-center">
+        <button type="button" id="goButton" class="btn btn-info text-center">
+          GO
+        </button>
+      </div>
+    </div>
+
+    <script src="script/main.js"></script>
+  </body>
+</html>
